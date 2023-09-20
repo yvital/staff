@@ -33,7 +33,7 @@ body {
 }
 
 .nav__item-min-top {
-    opacity: .6;
+    color: var(--ink-light, #5F5F5F);
     font-size: 12px;
     padding-left: 24px;
     padding-bottom: 21px;
@@ -50,7 +50,7 @@ body {
 }
 
 .nav__item-min {
-    opacity: .6;
+    color: var(--ink-light, #5F5F5F);
     font-size: 12px;
     padding-top: 29px;
     padding-left: 24px;
