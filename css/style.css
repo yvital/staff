@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav__menu {
+    height: 100vh;
+    top: 0px;
+    transform: translateX(0%);
+    width: 256px;
+    max-height: calc(100% - 0px);
+    background: var(--ink-base, linear-gradient(0deg, rgba(0, 0, 0, 0.87) 0%, rgba(0, 0, 0, 0.87) 100%), #FFF);
+}
+
+.nav__logo {
+    padding-left: 24px;
+    padding-top: 27px;
+}
+
+.nav__logo-pic {
+    width: 140px;
+    height: 34px;
+}
+
+.nav__navigation {
+    color: white;
+    font-family: Roboto Flex;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 48px;
+}
+
+.nav__item-min-top {
+    opacity: .6;
+    font-size: 14px;
+    padding-left: 24px;
+    padding-bottom: 13px;
+}
+
+.nav__item-selected {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: var(--ink-light, #5F5F5F);
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.nav__item {
+    opacity: .6;
+    padding-left: 24px;
+    padding-bottom: 13px;
+    cursor: pointer;
+}
+
+.nav__item-min {
+    opacity: .6;
+    font-size: 14px;
+    padding-top: 29px;
+    padding-left: 24px;
+    padding-bottom: 21px;
+}
+
+.nav__item-list {
+    padding-bottom: 21px;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 256px;
+    width: 100%;
+    background: var(--BGN, #FAFAFA);
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    min-width: 1000px;
+}
+
+.header__vacancy {
+    background: transparent url(../img/vacancy.svg) no-repeat left;
+    background-size: 20px;
+}
+
+.header__object {
+    background: transparent url(../img/vacancy.svg) no-repeat left;
+    background-size: 20px;
+    margin-left: 48px;
+}
+
+.header__favourites {
+    background: transparent url(../img/favourites.svg) no-repeat left;
+    background-size: 28px;
+}
+
+.nav__header-link {
+    padding-left: 28px;
+    text-decoration: none;
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    opacity: .87;
+}
+.nav__header-profile-link {
+    padding-left: 36px;
+    text-decoration: none;
+    font-family: Roboto Flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: black;
+    opacity: .87;
+}
+
+
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.header__profile {
+   margin-left: -491px;
+}
