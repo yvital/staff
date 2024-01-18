@@ -23,6 +23,11 @@ body {
     height: 34px;
 }
 
+.nav__logo-pic {
+    width: 1095px;
+    height: 1112px;
+}
+
 .nav__navigation {
     color: white;
     font-family: Roboto Flex;
